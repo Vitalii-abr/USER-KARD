@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
     font-family: 'Times New Roman', Times, serif;
   padding: 15px;
@@ -9,7 +10,8 @@ body {
   flex-wrap: wrap;
   margin: 0;
 }
-.userKard {
+
+.userKard, .userKard1, .userKard2 {
   margin: 30px;
   background-color: white;
   padding: 20px;
@@ -22,12 +24,14 @@ body {
   flex-grow: 1;
 }
 
-.editBtn {
+
+.editBtn, .editBtn2 {
   align-self: flex-end;
   cursor: pointer;
+
 }
 
-.userImg {
+.userImg, .userImg1, .userImg2 {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -35,17 +39,17 @@ body {
   margin: -25px;
 }
 
-.fio {
+.fio, .fio1, .fio2 {
   padding: 10px;
   margin: 25px;
 }
 
-.local {
+.local, .local1, .local2 {
   padding: 10px;
   margin: -25px;
 }
 
-.lorem {
+.lorem, .lorem1, .lorem2 {
   text-align: center;
   padding: 25px;
   margin: 25px;
@@ -68,33 +72,18 @@ body {
 }
 
 .userKard1 {
-  margin: 30px;
   background-color: beige;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-basis: 300px;
-  max-width: 230px;
-  max-width: 350px;
-  flex-grow: 1;
 }
 
 .userImg1 {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
   margin: -1px;
 }
 
 .fio1 {
-  padding: 10px;
   margin: -1px;
 }
 
 .local1 {
-  padding: 10px;
   margin: -3px;
 }
 
@@ -103,12 +92,10 @@ body {
 }
 
 .lorem1 {
-  text-align: center;
-  padding: 25px;
   margin: -20px;
 }
 
-.socilItem1 {
+.socilItem1, .socilItem2 {
   margin: 16px;
   padding: 10px;
   cursor: pointer;
@@ -123,39 +110,7 @@ body {
   align-items: center;
 }
 
-.userKard2 {
-  margin: 30px;
-  background-color: white;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-basis: 300px;
-  max-width: 230px;
-  max-width: 350px;
-  flex-grow: 1;
-}
-
-.editBtn2 {
-  align-self: flex-end;
-  cursor: pointer;
-}
-
-.userImg2 {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin: -25px;
-}
-
-.fio2 {
-  padding: 10px;
-  margin: 25px;
-}
-
 .local2 {
-  padding: 10px;
   margin: -30px;
 }
 
@@ -166,8 +121,6 @@ body {
 }
 
 .lorem2 {
-  text-align: center;
-  padding: 25px;
   margin: -20px;
 }
 
@@ -178,6 +131,5 @@ body {
 .socilItem2 {
   margin: 20px;
   padding: 10px;
-  cursor: pointer;
   background-color: green;
 }
